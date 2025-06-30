@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
         startPosition = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (OutOfBounds())
